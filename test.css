@@ -1,0 +1,168 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+} */
+
+#head{
+    background-color: #082A4A;
+}
+#insidetext{
+    margin-top: 200px;
+    /* letter-spacing: 2px; */
+}
+#case{
+    width: 35px;
+}
+#service{
+    background-color: #EEF2F6;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+#box1{
+background:linear-gradient( to right, #5A154A, #922278) ;
+}
+#box2{
+    background:linear-gradient( to right, #A13172, #C33E8B) ;
+}
+#box3{
+    background:linear-gradient( to right, #E73056, #E95038) ;
+}
+#box4{
+    background:linear-gradient( to right, #F28A19, #F9B107) ;
+}
+#box5{
+    background:linear-gradient( to right, #77AC43, #94CA5F) ;
+}
+#box6{
+    background:linear-gradient( to right, #235683, #048FA3) ;
+}
+#box7{
+    background:linear-gradient( to right, #48B2BC, #95D0D3) ;
+}
+#box8{
+    background:linear-gradient( to right, #279A96, #2EAEA9) ;
+}
+.logo{
+    width: 30px;
+    padding-bottom: 12px;
+}
+#text1{
+    font-size: 13px;
+}
+#mission{
+    padding-top:30px    
+}
+.text2{
+    font-size: 10px;
+}
+#feedback{
+    background-color: #EEF2F6;
+    padding-top: 50px;
+}
+/* #text3{
+    font-size: 13px;
+} */
+#footer{
+    background-color: #082A4A;
+}
+#line{
+color: #2E82D0;
+}
+
+@media (min-width:768px) and (max-width: 992px){
+    #insidetext{
+        margin-top: 60px;
+    }
+    .text4{
+        font-size: 17px;
+    }
+    .text5{
+        font-size: 13px;
+    }
+    .text6{
+        font-size: 10px;
+    }
+    #case{
+        width: 30px;
+    }
+    #doctor{
+        width: 400px;
+    }
+    .heartlogo{
+        width: 17px;
+    }
+    .women{
+        width: 350px;
+    }
+    #logo1{
+        width: 60px;
+    }
+    .logo2{
+        display: none;
+    }
+    #family{
+        width: 320px;
+    }
+    
+}
+    
+@media (min-width:576px) and (max-width: 767px){
+    #insidetext{
+        margin-top: 60px ;
+    }
+    #logo3{
+        width: 50px;
+    }
+    .navbar{
+        padding: 0;
+    }
+    .navbar-toggler-icon{
+        width: 1em;
+        height: 1em;
+    }
+    #text{
+        font-size: 9px;
+    }
+    .text4{
+        font-size: 14px;
+    }
+    .text5{
+        font-size: 10px;
+    }
+    .text6{
+        font-size: 9px;
+    }
+    #family{
+        width: 235px;
+    }
+    #case{
+        width: 22px;
+    }
+    #service{
+        padding: 40px;
+    }
+    #doctor{
+        width: 270px;
+    }
+    .heartlogo{
+        width: 13px;
+    }
+    .women{
+        width: 300px;
+       
+    }
+    #logo1{
+        width: 50px;
+    }
+    .logo2{
+        display: none;
+    }
+   #send{
+    font-size: 12px;
+   }
+    .social{
+        width: 20px;
+    }
+}
+    
